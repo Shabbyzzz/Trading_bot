@@ -9,8 +9,8 @@ from dotenv import load_dotenv
 # Load API keys from .env file
 load_dotenv()
 
-API_KEY = os.getenv("MEXC_API_KEY", "your_api_key_here")
-API_SECRET = os.getenv("MEXC_API_SECRET", "your_api_secret_here")
+API_KEY = os.getenv("MEXC_API_KEY", "d0a65b1d1d324b0ebda1ac8b4a18e9f4")
+API_SECRET = os.getenv("MEXC_API_SECRET", "mx0vglBTUVDubHCjg5")
 BACKEND_URL = os.getenv("BACKEND_URL", "https://your-backend-url.com")
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
